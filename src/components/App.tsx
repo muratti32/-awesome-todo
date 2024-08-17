@@ -1,7 +1,7 @@
-import { CreateTodo } from 'create-todo';
+import { CreateTodo } from 'components/create-todo';
+import { TodoList } from 'components/todo-list';
 import { getAllTodos } from 'lib/appwrite';
 import { useEffect, useState } from 'react';
-import { TodoList } from 'todo-list';
 import type { Todo } from 'types';
 
 function App() {

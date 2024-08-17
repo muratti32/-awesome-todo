@@ -7,9 +7,9 @@
     "name": "murat ulug"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
-    "serve": "vite preview",
+    "serve": "vite preview --host 0.0.0.0",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "lint": "eslint src --max-warnings=0",

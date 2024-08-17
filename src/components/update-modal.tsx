@@ -1,7 +1,7 @@
+import { updateTodo } from 'lib/appwrite';
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
-import { updateTodo } from '../lib/appwrite';
-import type { Todo } from '../types';
+import type { Todo } from 'types';
 
 const customStyles = {
   content: {

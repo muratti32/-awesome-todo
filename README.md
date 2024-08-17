@@ -1,8 +1,6 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# Awesome Todo App
 
-# React Tailwindcss Boilerplate build with Vite
-
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+This app build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
 
 ## What is inside?
 
@@ -21,60 +19,26 @@ This project uses many tools like:
 
 ### Install
 
-Create the project.
+install dependencies.
 
 ```bash
-pnpm dlx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+yarn install
 ```
 
-Access the project directory.
+run the development server.
 
 ```bash
-cd my-app
+yarn dev
 ```
 
-Install dependencies.
+build docker image.
 
 ```bash
-pnpm install
+docker build -t awesome-todo-app .
 ```
 
-Serve with hot reload at <http://localhost:5173>.
+run docker container.
 
 ```bash
-pnpm run dev
+docker run -p 3000:4173 <image-id>
 ```
-
-### Lint
-
-```bash
-pnpm run lint
-```
-
-### Typecheck
-
-```bash
-pnpm run typecheck
-```
-
-### Build
-
-```bash
-pnpm run build
-```
-
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.

@@ -1,5 +1,5 @@
+import { addTodo } from 'lib/appwrite';
 import { useState } from 'react';
-import { addTodo } from '../lib/appwrite';
 
 interface Props {
   onCreate: () => void;
@@ -21,7 +21,7 @@ export const CreateTodo = (props: Props) => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
+    <div className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-md">
       <h1 className="text-2xl font-bold mb-4">Add Todo</h1>
       <form onSubmit={handleSubmit} className="mb-4">
         <input
